@@ -1,6 +1,6 @@
   <h2>Fill up the form to participate!</h2>
 
-  <form role="form">
+  <form role="form" ng-submit="register()">
 
     <!-- Firstname -->
     <div class="form-group">
@@ -25,9 +25,9 @@
       <label for="diet">Dietary preference:</label>
       <select class="form-control" id="diet" ng-model="reg.diet">
         <option value="">Please choose</option>
-        <option value="vegetarian">Vegetarian</option>
-        <option value="fish">Fish</option>
-        <option value="meat">Meat</option>
+        <option value="Vegetarian">Vegetarian</option>
+        <option value="Fish">Fish</option>
+        <option value="Meat">Meat</option>
       </select>
     </div>
 
@@ -35,7 +35,7 @@
       <label><input type="checkbox" ng-model="reg.sauna">Bathe in sauna.</label>
     </div>
 
-    <button type="submit" class="btn btn-default" ng-submit="register()">Submit</button>
+    <button type="submit" class="btn btn-default">Submit</button>
   </form>
   <br>
 <pre>
