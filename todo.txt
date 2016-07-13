@@ -1,0 +1,15 @@
+Todo.txt
+[x] make angular module
+[x] test mainConstructor
+[x] make router for pages 
+[x] edit views
+[x] make form to register template 
+[x] add ng-models
+[x] show ng-models JSON
+[ ] find out how to jump page
+[ ] write function()
+[ ] write service
+[ ] 
+
+
+
