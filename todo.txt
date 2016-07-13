@@ -6,10 +6,24 @@ Todo.txt
 [x] make form to register template 
 [x] add ng-models
 [x] show ng-models JSON
-[ ] find out how to jump page
-[ ] write function()
-[ ] write service
-[ ] 
+[x] make table
+[x] write service
+[x] make mock-up data to service
+[ ] find out how to jump to page form button
+[ ] write function() to add to service data
+[ ] add to function() to convert boolean to yes and no
+[ ] look at the bearder guy's video and determine how he writes the function
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+
 
 
 
