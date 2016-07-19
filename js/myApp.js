@@ -91,19 +91,7 @@ myApp.controller('registerViewController', ['$scope', '$log', 'myService', funct
 
     $log.info("You clicked the button!");
   
-    /*
-    myService.mockupData.firstName = $scope.reg.firstName;
-    myService.mockupData.lastName.push($scope.reg.lastName);
-    myService.mockupData.email.push($scope.reg.email);
-    myService.mockupData.diet.push($scope.reg.diet);
-    myService.mockupData.sauna.push($scope.reg.sauna);
-
-    if (myService.mockupData.sauna === true) {
-      myService.mockupData.sauna = "Yes";
-    } else { 
-      myService.mockupData.sauna = "No"; 
-    }
-  }; */
+  };
 
 }]);
 
